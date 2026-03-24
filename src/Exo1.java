@@ -19,6 +19,7 @@ public class Exo1 {
          String color = scanner.nextLine();
 
          System.out.print("Vous etes etudiant?? (true/false): ");
+
          boolean estEtudiant = scanner.nextBoolean();
 
          System.out.println("Salut " + name);
