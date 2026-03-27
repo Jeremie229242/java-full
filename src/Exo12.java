@@ -1,6 +1,6 @@
+import java.util.Scanner;
 
-
- public class Exo12 {
+public class Exo12 {
     public static void  main(String[] args){
 
         //java quiz game
@@ -23,5 +23,27 @@
         };
         int[] answers = {3, 1, 2, 4 ,3};
         int score = 0;
+        int guess ;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("*************************");
+        System.out.println("Bienvenue en java quiz game");
+        System.out.println("*************************");
+
+        for (int i = 0; i < questions.length; i++){
+
+            System.out.println(questions[i]);
+
+            for (String option : options[i]){
+                System.out.println(option);
+
+            }
+        }
+
+
+
+
+        scanner.close();
     }
 }
