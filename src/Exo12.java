@@ -58,7 +58,7 @@ public class Exo12 {
         }
 
 
-        System.out.println("Votre score final est: "  +score + " reponse correct " + " sur " + questions.length + " questions");
+        System.out.println("Votre score final est: "  +score + " reponse correct " + " sur " + questions.length + " questions ");
 
 
 
