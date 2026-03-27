@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exo12 {
@@ -39,7 +40,26 @@ public class Exo12 {
                 System.out.println(option);
 
             }
+            System.out.print("Entrer votre guess: ");
+            guess = scanner.nextInt();
+
+            if (guess == answers[i]){
+                System.out.println("*************");
+                System.out.println("Felicitation!");
+                System.out.println("**************");
+                score++;
+            }
+            else {
+                System.out.println("*************");
+                System.out.println("Perdu!");
+                System.out.println("**************");
+            }
+
         }
+
+
+        System.out.println("Votre score final est: "  +score + " reponse correct " + " sur " + questions.length + " questions");
+
 
 
 
